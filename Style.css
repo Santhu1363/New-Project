@@ -1,0 +1,134 @@
+body{
+    padding: 1rem;
+    background: linear-gradient(100deg, rgba(15, 179, 196, 0.51),rgba(10,53,127,067));
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    text-decoration:underline;
+}
+.a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}    
+#select-city{
+    padding:5px;
+    }
+#search{
+    padding: 5PX;
+    margin: 1px;
+    background-color:darkgoldenrod;
+    color: aliceblue;
+    cursor: pointer;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    grid-column-gap: 25px;
+    align-items: center;
+    margin: 0 50px;
+    color:blanchedalmond;
+}
+#weather{
+    text-align: center;
+    color: snow;
+}
+#place{
+    text-align: center;
+    color:seashell;
+    text-shadow: 5px;
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.temp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#weather img{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+}
+#temperature{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#condition{
+    font-size: 17px;
+    background-color:darkgreen;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+.cast-header{
+    background-color:ivory;
+    padding: 2px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.next p{
+    margin: 4px 0;
+}
+.time{
+    color:gold;
+}
+.desc{
+    color: antiquewhite;
+    background-color:olive;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+.divider1 .divider2{
+    background-color:antiquewhite;
+    border-radius: 2px;
+    height: 300px;
+}
+.divider2{
+    background-color:antiquewhite;
+    border-radius: 2px;
+    width: 1400px;
+    height: 2px;
+    margin: 25px;
+}
+.week{
+    display: flex;
+}
+.day1{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column;
+    margin: 0 auto;
+}
+.date{
+    color:black;
+    background-color:beige;
+    padding: 2px 10px;
+    border-radius: 10px;
+}
+#nexttemp{
+    font-size: 20px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+.divider3{
+    background-color: antiquewhite;
+    height: 170px;
+    width: 2px;
+}
+
